@@ -389,9 +389,121 @@ class HandLandmarkExtractor:
         """
         return np.load(filepath)
     
+    def _calculate_distance(self, point1: np.ndarray, point2: np.ndarray) -> float:
+        """
+        2点間の3次元距離を計算
+        
+        Args:
+            point1: 第1点の座標 (3,)
+            point2: 第2点の座標 (3,)
+            
+        Returns:
+            距離
+        """
+        return np.linalg.norm(point1 - point2)
+    
+    def _calculate_angle(self, point1: np.ndarray, point2: np.ndarray, point3: np.ndarray) -> float:
+        """
+        3点からなる角度を計算（point2を頂点とする角度）
+        
+        Args:
+            point1: 第1点の座標 (3,)
+            point2: 頂点の座標 (3,)
+            point3: 第3点の座標 (3,)
+            
+        Returns:
+            角度（ラジアン）
+        """
+        vector1 = point1 - point2
+        vector2 = point3 - point2
+        
+        # ベクトルの正規化
+        norm1 = np.linalg.norm(vector1)
+        norm2 = np.linalg.norm(vector2)
+        
+        if norm1 == 0 or norm2 == 0:
+            return 0.0
+        
+        vector1 = vector1 / norm1
+        vector2 = vector2 / norm2
+        
+        # 内積から角度を計算
+        dot_product = np.clip(np.dot(vector1, vector2), -1.0, 1.0)
+        angle = np.arccos(dot_product)
+        
+        return angle
+    
+    def _is_finger_extended(self, landmarks: np.ndarray, finger_points: List[int], angle_threshold: float = 1.0) -> bool:
+        """
+        指が伸びているかを相対位置に基づいて判定
+        
+        Args:
+            landmarks: ランドマーク配列 (21, 3)
+            finger_points: 指のポイントインデックスのリスト [付け根, 第1関節, 第2関節, 先端]
+            angle_threshold: 角度の閾値（ラジアン）。この値より小さい角度なら伸びていると判定
+            
+        Returns:
+            指が伸びているかどうか
+        """
+        if len(finger_points) < 3:
+            return False
+        
+        # 方法1: 関節間の角度を計算
+        # 指が伸びている場合、関節間の角度は小さい（ほぼ一直線）
+        total_angle = 0.0
+        
+        # 各関節間の角度を計算
+        for i in range(len(finger_points) - 2):
+            angle = self._calculate_angle(
+                landmarks[finger_points[i]],
+                landmarks[finger_points[i + 1]],
+                landmarks[finger_points[i + 2]]
+            )
+            total_angle += angle
+        
+        # 平均角度が閾値より小さい場合、指が伸びていると判定
+        if len(finger_points) - 2 > 0:
+            avg_angle = total_angle / (len(finger_points) - 2)
+        else:
+            avg_angle = 0.0
+        
+        # 方法2: 付け根から先端までの直線距離と、各関節を経由した距離を比較
+        # 指が伸びている場合、直線距離 ≈ 各関節を経由した距離の合計
+        straight_distance = self._calculate_distance(
+            landmarks[finger_points[0]],
+            landmarks[finger_points[-1]]
+        )
+        
+        path_distance = 0.0
+        for i in range(len(finger_points) - 1):
+            path_distance += self._calculate_distance(
+                landmarks[finger_points[i]],
+                landmarks[finger_points[i + 1]]
+            )
+        
+        # 直線距離と経路距離の比率
+        if path_distance > 0:
+            distance_ratio = straight_distance / path_distance
+        else:
+            distance_ratio = 0.0
+        
+        # z座標による判定は削除（手の回転に弱いため）
+        # 代わりに、角度と距離比の両方を考慮したより堅牢な判定を使用
+        
+        # 角度と距離比の両方を考慮
+        # 指が伸びている場合：
+        # - 角度が小さい（ほぼ一直線）
+        # - 距離比が大きい（直線距離 ≈ 経路距離）
+        angle_ok = avg_angle < angle_threshold
+        distance_ok = distance_ratio > 0.80  # 0.85から0.80に緩和（より柔軟に）
+        
+        # 両方の条件を満たす場合、または距離比が非常に高い場合（0.95以上）は伸びていると判定
+        # 距離比が非常に高い場合は、角度が多少大きくても伸びていると判定
+        return (angle_ok and distance_ok) or distance_ratio > 0.95
+    
     def check_finger_extended(self, landmarks: np.ndarray) -> Dict[str, bool]:
         """
-        各指が伸びているかを判定
+        各指が伸びているかを相対位置に基づいて判定（手の向きにロバスト）
         
         Args:
             landmarks: ランドマーク配列 (21, 3)
@@ -399,10 +511,6 @@ class HandLandmarkExtractor:
         Returns:
             各指が伸びているかの辞書 {'thumb': bool, 'index': bool, 'middle': bool, 'ring': bool, 'pinky': bool}
         """
-        # 手の向きを判定（左手か右手か）
-        # 手首(0)と小指の付け根(17)のx座標を比較
-        is_left_hand = landmarks[0][0] > landmarks[17][0]
-        
         fingers = {
             'thumb': False,
             'index': False,
@@ -411,25 +519,35 @@ class HandLandmarkExtractor:
             'pinky': False
         }
         
-        # 親指の判定（x座標で判定、左右の手で判定が異なる）
-        if is_left_hand:
-            # 左手の場合: 親指の先端(4)が関節(3)より右側（x座標が大きい）
-            fingers['thumb'] = landmarks[4][0] > landmarks[3][0]
-        else:
-            # 右手の場合: 親指の先端(4)が関節(3)より左側（x座標が小さい）
-            fingers['thumb'] = landmarks[4][0] < landmarks[3][0]
+        # 各指のポイントインデックス
+        # 親指: 1(付け根), 2(第1関節), 3(第2関節), 4(先端)
+        # 人差し指: 5(付け根), 6(第1関節), 7(第2関節), 8(先端)
+        # 中指: 9(付け根), 10(第1関節), 11(第2関節), 12(先端)
+        # 薬指: 13(付け根), 14(第1関節), 15(第2関節), 16(先端)
+        # 小指: 17(付け根), 18(第1関節), 19(第2関節), 20(先端)
         
-        # 人差し指の判定（y座標で判定、先端が関節より上）
-        fingers['index'] = landmarks[8][1] < landmarks[6][1]
+        # 親指の判定（親指は手首(0)から始まる）
+        # 親指は他の指と異なり、手首(0)から始まる
+        # 親指は動きが特殊なため、より緩い条件で判定
+        # 親指の付け根(1)から先端(4)までで判定（手首(0)は除外）
+        thumb_points = [1, 2, 3, 4]  # 付け根から先端まで
+        fingers['thumb'] = self._is_finger_extended(landmarks, thumb_points, angle_threshold=1.2)
+        
+        # 人差し指の判定
+        index_points = [5, 6, 7, 8]
+        fingers['index'] = self._is_finger_extended(landmarks, index_points, angle_threshold=1.0)
         
         # 中指の判定
-        fingers['middle'] = landmarks[12][1] < landmarks[10][1]
+        middle_points = [9, 10, 11, 12]
+        fingers['middle'] = self._is_finger_extended(landmarks, middle_points, angle_threshold=1.0)
         
         # 薬指の判定
-        fingers['ring'] = landmarks[16][1] < landmarks[14][1]
+        ring_points = [13, 14, 15, 16]
+        fingers['ring'] = self._is_finger_extended(landmarks, ring_points, angle_threshold=1.0)
         
         # 小指の判定
-        fingers['pinky'] = landmarks[20][1] < landmarks[18][1]
+        pinky_points = [17, 18, 19, 20]
+        fingers['pinky'] = self._is_finger_extended(landmarks, pinky_points, angle_threshold=1.0)
         
         return fingers
     
@@ -445,14 +563,27 @@ class HandLandmarkExtractor:
         """
         extended_count = sum(fingers.values())
         
+        # グー: すべての指が曲がっている
         if extended_count == 0:
             return 'グー'
-        elif extended_count == 2 and fingers['index'] and fingers['middle']:
-            return 'チョキ'
-        elif extended_count == 5:
+        
+        # チョキ: 人差し指と中指だけが伸びている
+        # 親指は動きが特殊なため、チョキの判定では親指を除外
+        # 人差し指と中指が伸びていて、薬指と小指が曲がっていることを確認
+        if (fingers['index'] and fingers['middle'] and
+            not fingers['ring'] and not fingers['pinky']):
+            # 親指以外の指で判定（親指は除外）
+            non_thumb_count = sum([fingers['index'], fingers['middle'], 
+                                   fingers['ring'], fingers['pinky']])
+            if non_thumb_count == 2:  # 人差し指と中指のみが伸びている
+                return 'チョキ'
+        
+        # パー: すべての指が伸びている
+        if extended_count == 5:
             return 'パー'
-        else:
-            return '判定不能'
+        
+        # その他の場合は判定不能
+        return '判定不能'
 
 
 def main():
