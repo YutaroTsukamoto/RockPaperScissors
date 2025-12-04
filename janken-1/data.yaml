@@ -1,0 +1,14 @@
+names:
+- gu-
+- pa-
+- tyoki
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: janken-cqbkx-puevy
+  url: https://universe.roboflow.com/kkk-0qgmd/janken-cqbkx-puevy/dataset/1
+  version: 1
+  workspace: kkk-0qgmd
+test: ../test/images
+train: ../train/images
+val: ../valid/images
