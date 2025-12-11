@@ -1,0 +1,2977 @@
+[
+    {
+        "frame_id": 18,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1177,
+                    747,
+                    1807,
+                    1080
+                ],
+                "confidence": 0.25202998518943787
+            }
+        ]
+    },
+    {
+        "frame_id": 19,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1274,
+                    577,
+                    1818,
+                    1080
+                ],
+                "confidence": 0.9280731081962585
+            },
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1045,
+                    579,
+                    1819,
+                    1080
+                ],
+                "confidence": 0.2662128210067749
+            }
+        ]
+    },
+    {
+        "frame_id": 20,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1153,
+                    508,
+                    1817,
+                    1080
+                ],
+                "confidence": 0.9414269328117371
+            }
+        ]
+    },
+    {
+        "frame_id": 21,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1160,
+                    467,
+                    1808,
+                    1080
+                ],
+                "confidence": 0.9656413197517395
+            }
+        ]
+    },
+    {
+        "frame_id": 22,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1175,
+                    443,
+                    1829,
+                    1064
+                ],
+                "confidence": 0.9502302408218384
+            }
+        ]
+    },
+    {
+        "frame_id": 23,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1191,
+                    427,
+                    1849,
+                    1043
+                ],
+                "confidence": 0.9425317645072937
+            }
+        ]
+    },
+    {
+        "frame_id": 24,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1212,
+                    412,
+                    1854,
+                    1011
+                ],
+                "confidence": 0.9435948133468628
+            }
+        ]
+    },
+    {
+        "frame_id": 25,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1243,
+                    407,
+                    1856,
+                    1006
+                ],
+                "confidence": 0.9414346218109131
+            }
+        ]
+    },
+    {
+        "frame_id": 26,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1267,
+                    411,
+                    1859,
+                    1017
+                ],
+                "confidence": 0.941615641117096
+            }
+        ]
+    },
+    {
+        "frame_id": 27,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1279,
+                    417,
+                    1855,
+                    1017
+                ],
+                "confidence": 0.9449952840805054
+            }
+        ]
+    },
+    {
+        "frame_id": 28,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1282,
+                    422,
+                    1837,
+                    1015
+                ],
+                "confidence": 0.938264787197113
+            }
+        ]
+    },
+    {
+        "frame_id": 29,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1280,
+                    424,
+                    1820,
+                    1013
+                ],
+                "confidence": 0.9332131147384644
+            }
+        ]
+    },
+    {
+        "frame_id": 30,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1274,
+                    425,
+                    1818,
+                    999
+                ],
+                "confidence": 0.9259220957756042
+            }
+        ]
+    },
+    {
+        "frame_id": 31,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1272,
+                    418,
+                    1803,
+                    990
+                ],
+                "confidence": 0.931165874004364
+            }
+        ]
+    },
+    {
+        "frame_id": 32,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1270,
+                    416,
+                    1786,
+                    1018
+                ],
+                "confidence": 0.9204949140548706
+            }
+        ]
+    },
+    {
+        "frame_id": 33,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1263,
+                    425,
+                    1782,
+                    1037
+                ],
+                "confidence": 0.9381245970726013
+            }
+        ]
+    },
+    {
+        "frame_id": 34,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1268,
+                    425,
+                    1784,
+                    1062
+                ],
+                "confidence": 0.9351827502250671
+            }
+        ]
+    },
+    {
+        "frame_id": 35,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1291,
+                    428,
+                    1786,
+                    1010
+                ],
+                "confidence": 0.9328163862228394
+            }
+        ]
+    },
+    {
+        "frame_id": 36,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    1425,
+                    436,
+                    1781,
+                    983
+                ],
+                "confidence": 0.8803449273109436
+            }
+        ]
+    },
+    {
+        "frame_id": 37,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1373,
+                    458,
+                    1783,
+                    977
+                ],
+                "confidence": 0.40554022789001465
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1372,
+                    458,
+                    1779,
+                    989
+                ],
+                "confidence": 0.3050045669078827
+            }
+        ]
+    },
+    {
+        "frame_id": 38,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1355,
+                    495,
+                    1809,
+                    964
+                ],
+                "confidence": 0.8127179145812988
+            }
+        ]
+    },
+    {
+        "frame_id": 39,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1389,
+                    584,
+                    1818,
+                    963
+                ],
+                "confidence": 0.8403636813163757
+            }
+        ]
+    },
+    {
+        "frame_id": 40,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1445,
+                    527,
+                    1865,
+                    884
+                ],
+                "confidence": 0.9171280264854431
+            }
+        ]
+    },
+    {
+        "frame_id": 41,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1549,
+                    470,
+                    1919,
+                    844
+                ],
+                "confidence": 0.848031759262085
+            }
+        ]
+    },
+    {
+        "frame_id": 42,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1641,
+                    439,
+                    1920,
+                    909
+                ],
+                "confidence": 0.8146141171455383
+            }
+        ]
+    },
+    {
+        "frame_id": 43,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1677,
+                    434,
+                    1919,
+                    799
+                ],
+                "confidence": 0.9100474119186401
+            }
+        ]
+    },
+    {
+        "frame_id": 44,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1684,
+                    429,
+                    1919,
+                    799
+                ],
+                "confidence": 0.9005820751190186
+            }
+        ]
+    },
+    {
+        "frame_id": 45,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1679,
+                    426,
+                    1919,
+                    781
+                ],
+                "confidence": 0.9287214875221252
+            }
+        ]
+    },
+    {
+        "frame_id": 46,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1673,
+                    423,
+                    1919,
+                    783
+                ],
+                "confidence": 0.904975414276123
+            }
+        ]
+    },
+    {
+        "frame_id": 47,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1673,
+                    419,
+                    1919,
+                    781
+                ],
+                "confidence": 0.9034483432769775
+            }
+        ]
+    },
+    {
+        "frame_id": 48,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1688,
+                    412,
+                    1919,
+                    784
+                ],
+                "confidence": 0.8343656659126282
+            }
+        ]
+    },
+    {
+        "frame_id": 49,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1739,
+                    410,
+                    1919,
+                    784
+                ],
+                "confidence": 0.7751883864402771
+            }
+        ]
+    },
+    {
+        "frame_id": 56,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1703,
+                    430,
+                    1919,
+                    804
+                ],
+                "confidence": 0.6442346572875977
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1705,
+                    422,
+                    1920,
+                    1008
+                ],
+                "confidence": 0.33038556575775146
+            }
+        ]
+    },
+    {
+        "frame_id": 57,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1541,
+                    454,
+                    1911,
+                    830
+                ],
+                "confidence": 0.8506182432174683
+            }
+        ]
+    },
+    {
+        "frame_id": 58,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1381,
+                    470,
+                    1736,
+                    847
+                ],
+                "confidence": 0.6968574523925781
+            }
+        ]
+    },
+    {
+        "frame_id": 59,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1246,
+                    480,
+                    1618,
+                    858
+                ],
+                "confidence": 0.9214938282966614
+            }
+        ]
+    },
+    {
+        "frame_id": 60,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1159,
+                    474,
+                    1533,
+                    848
+                ],
+                "confidence": 0.9681086540222168
+            }
+        ]
+    },
+    {
+        "frame_id": 61,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1112,
+                    453,
+                    1486,
+                    831
+                ],
+                "confidence": 0.9371654987335205
+            }
+        ]
+    },
+    {
+        "frame_id": 62,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1073,
+                    444,
+                    1446,
+                    828
+                ],
+                "confidence": 0.9108299612998962
+            }
+        ]
+    },
+    {
+        "frame_id": 63,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1047,
+                    443,
+                    1421,
+                    830
+                ],
+                "confidence": 0.9564378261566162
+            }
+        ]
+    },
+    {
+        "frame_id": 64,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1023,
+                    443,
+                    1399,
+                    825
+                ],
+                "confidence": 0.9045634269714355
+            }
+        ]
+    },
+    {
+        "frame_id": 65,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1010,
+                    444,
+                    1383,
+                    827
+                ],
+                "confidence": 0.9235395789146423
+            }
+        ]
+    },
+    {
+        "frame_id": 66,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    995,
+                    446,
+                    1373,
+                    833
+                ],
+                "confidence": 0.9311603903770447
+            }
+        ]
+    },
+    {
+        "frame_id": 67,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    986,
+                    444,
+                    1366,
+                    820
+                ],
+                "confidence": 0.931978166103363
+            }
+        ]
+    },
+    {
+        "frame_id": 68,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    978,
+                    443,
+                    1362,
+                    824
+                ],
+                "confidence": 0.9249752759933472
+            }
+        ]
+    },
+    {
+        "frame_id": 69,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    969,
+                    449,
+                    1353,
+                    855
+                ],
+                "confidence": 0.8779001235961914
+            }
+        ]
+    },
+    {
+        "frame_id": 70,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    913,
+                    435,
+                    1328,
+                    902
+                ],
+                "confidence": 0.8283896446228027
+            }
+        ]
+    },
+    {
+        "frame_id": 71,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    852,
+                    343,
+                    1267,
+                    857
+                ],
+                "confidence": 0.8560548424720764
+            }
+        ]
+    },
+    {
+        "frame_id": 72,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    850,
+                    310,
+                    1222,
+                    829
+                ],
+                "confidence": 0.9190880656242371
+            }
+        ]
+    },
+    {
+        "frame_id": 73,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    919,
+                    214,
+                    1256,
+                    846
+                ],
+                "confidence": 0.9415546655654907
+            }
+        ]
+    },
+    {
+        "frame_id": 74,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    978,
+                    187,
+                    1336,
+                    835
+                ],
+                "confidence": 0.9689749479293823
+            }
+        ]
+    },
+    {
+        "frame_id": 75,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    970,
+                    208,
+                    1319,
+                    854
+                ],
+                "confidence": 0.9714683890342712
+            }
+        ]
+    },
+    {
+        "frame_id": 76,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    955,
+                    226,
+                    1297,
+                    880
+                ],
+                "confidence": 0.9509466886520386
+            }
+        ]
+    },
+    {
+        "frame_id": 77,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    936,
+                    227,
+                    1285,
+                    882
+                ],
+                "confidence": 0.9425737857818604
+            }
+        ]
+    },
+    {
+        "frame_id": 78,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    929,
+                    224,
+                    1276,
+                    859
+                ],
+                "confidence": 0.9400366544723511
+            }
+        ]
+    },
+    {
+        "frame_id": 79,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    914,
+                    219,
+                    1265,
+                    854
+                ],
+                "confidence": 0.9507625102996826
+            }
+        ]
+    },
+    {
+        "frame_id": 80,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    906,
+                    218,
+                    1263,
+                    866
+                ],
+                "confidence": 0.9581810832023621
+            }
+        ]
+    },
+    {
+        "frame_id": 81,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    909,
+                    220,
+                    1271,
+                    865
+                ],
+                "confidence": 0.9580411314964294
+            }
+        ]
+    },
+    {
+        "frame_id": 82,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    919,
+                    223,
+                    1277,
+                    865
+                ],
+                "confidence": 0.9480582475662231
+            }
+        ]
+    },
+    {
+        "frame_id": 83,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    931,
+                    232,
+                    1288,
+                    876
+                ],
+                "confidence": 0.9490845203399658
+            }
+        ]
+    },
+    {
+        "frame_id": 84,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    936,
+                    231,
+                    1299,
+                    877
+                ],
+                "confidence": 0.9547114968299866
+            }
+        ]
+    },
+    {
+        "frame_id": 85,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    948,
+                    232,
+                    1317,
+                    878
+                ],
+                "confidence": 0.9660074710845947
+            }
+        ]
+    },
+    {
+        "frame_id": 86,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    956,
+                    228,
+                    1329,
+                    878
+                ],
+                "confidence": 0.9683905839920044
+            }
+        ]
+    },
+    {
+        "frame_id": 87,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    964,
+                    227,
+                    1342,
+                    869
+                ],
+                "confidence": 0.9741801619529724
+            }
+        ]
+    },
+    {
+        "frame_id": 88,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    974,
+                    221,
+                    1366,
+                    875
+                ],
+                "confidence": 0.9704732894897461
+            }
+        ]
+    },
+    {
+        "frame_id": 89,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    985,
+                    220,
+                    1380,
+                    863
+                ],
+                "confidence": 0.9657920598983765
+            }
+        ]
+    },
+    {
+        "frame_id": 90,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    990,
+                    219,
+                    1393,
+                    876
+                ],
+                "confidence": 0.9610621333122253
+            }
+        ]
+    },
+    {
+        "frame_id": 91,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    987,
+                    219,
+                    1393,
+                    865
+                ],
+                "confidence": 0.9601966142654419
+            }
+        ]
+    },
+    {
+        "frame_id": 92,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    985,
+                    220,
+                    1378,
+                    843
+                ],
+                "confidence": 0.9520727396011353
+            }
+        ]
+    },
+    {
+        "frame_id": 93,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    986,
+                    216,
+                    1309,
+                    838
+                ],
+                "confidence": 0.8709319233894348
+            }
+        ]
+    },
+    {
+        "frame_id": 94,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    988,
+                    465,
+                    1346,
+                    892
+                ],
+                "confidence": 0.8402528762817383
+            }
+        ]
+    },
+    {
+        "frame_id": 95,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1069,
+                    399,
+                    1400,
+                    855
+                ],
+                "confidence": 0.8689355254173279
+            }
+        ]
+    },
+    {
+        "frame_id": 96,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1141,
+                    396,
+                    1493,
+                    802
+                ],
+                "confidence": 0.9685362577438354
+            }
+        ]
+    },
+    {
+        "frame_id": 97,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1128,
+                    435,
+                    1475,
+                    834
+                ],
+                "confidence": 0.946406364440918
+            }
+        ]
+    },
+    {
+        "frame_id": 98,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1136,
+                    442,
+                    1487,
+                    839
+                ],
+                "confidence": 0.9675906896591187
+            }
+        ]
+    },
+    {
+        "frame_id": 99,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1144,
+                    442,
+                    1486,
+                    840
+                ],
+                "confidence": 0.9677344560623169
+            }
+        ]
+    },
+    {
+        "frame_id": 100,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1140,
+                    443,
+                    1484,
+                    837
+                ],
+                "confidence": 0.9652491807937622
+            }
+        ]
+    },
+    {
+        "frame_id": 101,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1146,
+                    443,
+                    1487,
+                    840
+                ],
+                "confidence": 0.9700564742088318
+            }
+        ]
+    },
+    {
+        "frame_id": 102,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1155,
+                    445,
+                    1492,
+                    841
+                ],
+                "confidence": 0.9738078713417053
+            }
+        ]
+    },
+    {
+        "frame_id": 103,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1159,
+                    447,
+                    1500,
+                    842
+                ],
+                "confidence": 0.9743684530258179
+            }
+        ]
+    },
+    {
+        "frame_id": 104,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1161,
+                    447,
+                    1506,
+                    844
+                ],
+                "confidence": 0.9745898842811584
+            }
+        ]
+    },
+    {
+        "frame_id": 105,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1162,
+                    447,
+                    1508,
+                    843
+                ],
+                "confidence": 0.9728177189826965
+            }
+        ]
+    },
+    {
+        "frame_id": 106,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1162,
+                    448,
+                    1514,
+                    844
+                ],
+                "confidence": 0.9705083966255188
+            }
+        ]
+    },
+    {
+        "frame_id": 107,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1162,
+                    449,
+                    1516,
+                    856
+                ],
+                "confidence": 0.9648061990737915
+            }
+        ]
+    },
+    {
+        "frame_id": 108,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1161,
+                    453,
+                    1520,
+                    867
+                ],
+                "confidence": 0.9567849040031433
+            }
+        ]
+    },
+    {
+        "frame_id": 109,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1161,
+                    460,
+                    1524,
+                    877
+                ],
+                "confidence": 0.9667662978172302
+            }
+        ]
+    },
+    {
+        "frame_id": 110,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1163,
+                    465,
+                    1528,
+                    879
+                ],
+                "confidence": 0.9692822694778442
+            }
+        ]
+    },
+    {
+        "frame_id": 111,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1165,
+                    467,
+                    1531,
+                    879
+                ],
+                "confidence": 0.9740021228790283
+            }
+        ]
+    },
+    {
+        "frame_id": 112,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1166,
+                    473,
+                    1533,
+                    881
+                ],
+                "confidence": 0.9765821099281311
+            }
+        ]
+    },
+    {
+        "frame_id": 113,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1166,
+                    478,
+                    1532,
+                    885
+                ],
+                "confidence": 0.9741117358207703
+            }
+        ]
+    },
+    {
+        "frame_id": 114,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1154,
+                    481,
+                    1508,
+                    885
+                ],
+                "confidence": 0.9878822565078735
+            }
+        ]
+    },
+    {
+        "frame_id": 115,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1121,
+                    484,
+                    1470,
+                    874
+                ],
+                "confidence": 0.9495503306388855
+            }
+        ]
+    },
+    {
+        "frame_id": 116,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1099,
+                    480,
+                    1446,
+                    849
+                ],
+                "confidence": 0.9856045842170715
+            }
+        ]
+    },
+    {
+        "frame_id": 117,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1115,
+                    472,
+                    1476,
+                    842
+                ],
+                "confidence": 0.9719247817993164
+            }
+        ]
+    },
+    {
+        "frame_id": 118,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1169,
+                    459,
+                    1537,
+                    844
+                ],
+                "confidence": 0.9681194424629211
+            }
+        ]
+    },
+    {
+        "frame_id": 119,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1230,
+                    450,
+                    1602,
+                    849
+                ],
+                "confidence": 0.970633864402771
+            }
+        ]
+    },
+    {
+        "frame_id": 120,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1228,
+                    448,
+                    1602,
+                    856
+                ],
+                "confidence": 0.958541750907898
+            }
+        ]
+    },
+    {
+        "frame_id": 121,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1130,
+                    452,
+                    1497,
+                    872
+                ],
+                "confidence": 0.9381998181343079
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    668,
+                    856,
+                    1060,
+                    1080
+                ],
+                "confidence": 0.36283546686172485
+            }
+        ]
+    },
+    {
+        "frame_id": 122,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    963,
+                    465,
+                    1322,
+                    878
+                ],
+                "confidence": 0.7390841245651245
+            }
+        ]
+    },
+    {
+        "frame_id": 123,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    777,
+                    493,
+                    1125,
+                    879
+                ],
+                "confidence": 0.6366157531738281
+            }
+        ]
+    },
+    {
+        "frame_id": 125,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    421,
+                    547,
+                    823,
+                    929
+                ],
+                "confidence": 0.4968035817146301
+            }
+        ]
+    },
+    {
+        "frame_id": 126,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    389,
+                    575,
+                    734,
+                    937
+                ],
+                "confidence": 0.778603732585907
+            }
+        ]
+    },
+    {
+        "frame_id": 127,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    318,
+                    597,
+                    657,
+                    953
+                ],
+                "confidence": 0.7671898007392883
+            }
+        ]
+    },
+    {
+        "frame_id": 128,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    288,
+                    600,
+                    631,
+                    973
+                ],
+                "confidence": 0.880429208278656
+            }
+        ]
+    },
+    {
+        "frame_id": 129,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    300,
+                    577,
+                    644,
+                    951
+                ],
+                "confidence": 0.8649201393127441
+            }
+        ]
+    },
+    {
+        "frame_id": 130,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    325,
+                    532,
+                    661,
+                    920
+                ],
+                "confidence": 0.8331760168075562
+            }
+        ]
+    },
+    {
+        "frame_id": 131,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    327,
+                    475,
+                    661,
+                    908
+                ],
+                "confidence": 0.5639886260032654
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    328,
+                    474,
+                    736,
+                    1019
+                ],
+                "confidence": 0.5360414981842041
+            }
+        ]
+    },
+    {
+        "frame_id": 132,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    195,
+                    299,
+                    737,
+                    1011
+                ],
+                "confidence": 0.9188710451126099
+            }
+        ]
+    },
+    {
+        "frame_id": 133,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    95,
+                    306,
+                    727,
+                    971
+                ],
+                "confidence": 0.961637020111084
+            }
+        ]
+    },
+    {
+        "frame_id": 134,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    71,
+                    291,
+                    711,
+                    946
+                ],
+                "confidence": 0.9611226320266724
+            }
+        ]
+    },
+    {
+        "frame_id": 135,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    57,
+                    275,
+                    697,
+                    940
+                ],
+                "confidence": 0.9640564322471619
+            }
+        ]
+    },
+    {
+        "frame_id": 136,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    38,
+                    255,
+                    690,
+                    944
+                ],
+                "confidence": 0.965414822101593
+            }
+        ]
+    },
+    {
+        "frame_id": 137,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    28,
+                    250,
+                    687,
+                    948
+                ],
+                "confidence": 0.9659260511398315
+            }
+        ]
+    },
+    {
+        "frame_id": 138,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    26,
+                    259,
+                    678,
+                    959
+                ],
+                "confidence": 0.9633122682571411
+            }
+        ]
+    },
+    {
+        "frame_id": 139,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    26,
+                    259,
+                    667,
+                    962
+                ],
+                "confidence": 0.9645386338233948
+            }
+        ]
+    },
+    {
+        "frame_id": 140,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    23,
+                    258,
+                    656,
+                    962
+                ],
+                "confidence": 0.9641194939613342
+            }
+        ]
+    },
+    {
+        "frame_id": 141,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    18,
+                    259,
+                    650,
+                    955
+                ],
+                "confidence": 0.9646861553192139
+            }
+        ]
+    },
+    {
+        "frame_id": 142,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    6,
+                    255,
+                    644,
+                    953
+                ],
+                "confidence": 0.9630463123321533
+            }
+        ]
+    },
+    {
+        "frame_id": 143,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    257,
+                    640,
+                    956
+                ],
+                "confidence": 0.961530327796936
+            }
+        ]
+    },
+    {
+        "frame_id": 144,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    259,
+                    634,
+                    962
+                ],
+                "confidence": 0.9587327837944031
+            }
+        ]
+    },
+    {
+        "frame_id": 145,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    258,
+                    633,
+                    963
+                ],
+                "confidence": 0.9562629461288452
+            }
+        ]
+    },
+    {
+        "frame_id": 146,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    256,
+                    634,
+                    963
+                ],
+                "confidence": 0.9569323658943176
+            }
+        ]
+    },
+    {
+        "frame_id": 147,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    255,
+                    636,
+                    957
+                ],
+                "confidence": 0.9550904631614685
+            }
+        ]
+    },
+    {
+        "frame_id": 148,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    260,
+                    636,
+                    954
+                ],
+                "confidence": 0.9616740942001343
+            }
+        ]
+    },
+    {
+        "frame_id": 149,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    0,
+                    262,
+                    635,
+                    952
+                ],
+                "confidence": 0.9647907018661499
+            }
+        ]
+    },
+    {
+        "frame_id": 150,
+        "detections": [
+            {
+                "class_name": "tyoki",
+                "coordinates": [
+                    107,
+                    270,
+                    628,
+                    943
+                ],
+                "confidence": 0.7449659705162048
+            },
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    109,
+                    267,
+                    634,
+                    949
+                ],
+                "confidence": 0.6344014406204224
+            }
+        ]
+    },
+    {
+        "frame_id": 151,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    95,
+                    339,
+                    631,
+                    937
+                ],
+                "confidence": 0.599705696105957
+            }
+        ]
+    },
+    {
+        "frame_id": 152,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    175,
+                    507,
+                    542,
+                    925
+                ],
+                "confidence": 0.7851700782775879
+            }
+        ]
+    },
+    {
+        "frame_id": 153,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    135,
+                    515,
+                    480,
+                    902
+                ],
+                "confidence": 0.7681349515914917
+            }
+        ]
+    },
+    {
+        "frame_id": 154,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    110,
+                    518,
+                    405,
+                    882
+                ],
+                "confidence": 0.6938985586166382
+            }
+        ]
+    },
+    {
+        "frame_id": 155,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    114,
+                    511,
+                    387,
+                    819
+                ],
+                "confidence": 0.4728699028491974
+            }
+        ]
+    },
+    {
+        "frame_id": 174,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    509,
+                    108,
+                    860,
+                    519
+                ],
+                "confidence": 0.6246374249458313
+            }
+        ]
+    },
+    {
+        "frame_id": 175,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    629,
+                    101,
+                    998,
+                    543
+                ],
+                "confidence": 0.6343433856964111
+            }
+        ]
+    },
+    {
+        "frame_id": 176,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    702,
+                    101,
+                    1079,
+                    569
+                ],
+                "confidence": 0.7806921601295471
+            }
+        ]
+    },
+    {
+        "frame_id": 177,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    741,
+                    106,
+                    1132,
+                    580
+                ],
+                "confidence": 0.7944144010543823
+            }
+        ]
+    },
+    {
+        "frame_id": 178,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    771,
+                    90,
+                    1176,
+                    584
+                ],
+                "confidence": 0.8809416890144348
+            }
+        ]
+    },
+    {
+        "frame_id": 179,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    796,
+                    64,
+                    1214,
+                    596
+                ],
+                "confidence": 0.6834869980812073
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    795,
+                    64,
+                    1159,
+                    455
+                ],
+                "confidence": 0.631135880947113
+            }
+        ]
+    },
+    {
+        "frame_id": 180,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    818,
+                    64,
+                    1172,
+                    441
+                ],
+                "confidence": 0.9077572226524353
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    816,
+                    65,
+                    1216,
+                    628
+                ],
+                "confidence": 0.3350392282009125
+            }
+        ]
+    },
+    {
+        "frame_id": 181,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    835,
+                    75,
+                    1212,
+                    435
+                ],
+                "confidence": 0.8880725502967834
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    835,
+                    75,
+                    1242,
+                    652
+                ],
+                "confidence": 0.27927854657173157
+            }
+        ]
+    },
+    {
+        "frame_id": 182,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    848,
+                    72,
+                    1217,
+                    445
+                ],
+                "confidence": 0.9371731877326965
+            }
+        ]
+    },
+    {
+        "frame_id": 183,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    860,
+                    64,
+                    1224,
+                    447
+                ],
+                "confidence": 0.9507009983062744
+            }
+        ]
+    },
+    {
+        "frame_id": 184,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    862,
+                    58,
+                    1223,
+                    441
+                ],
+                "confidence": 0.9728696942329407
+            }
+        ]
+    },
+    {
+        "frame_id": 185,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    859,
+                    53,
+                    1222,
+                    440
+                ],
+                "confidence": 0.9734872579574585
+            }
+        ]
+    },
+    {
+        "frame_id": 186,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    848,
+                    52,
+                    1220,
+                    439
+                ],
+                "confidence": 0.9725678563117981
+            }
+        ]
+    },
+    {
+        "frame_id": 187,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    52,
+                    1215,
+                    430
+                ],
+                "confidence": 0.9782911539077759
+            }
+        ]
+    },
+    {
+        "frame_id": 188,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    842,
+                    51,
+                    1216,
+                    428
+                ],
+                "confidence": 0.9767395257949829
+            }
+        ]
+    },
+    {
+        "frame_id": 189,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    841,
+                    50,
+                    1215,
+                    422
+                ],
+                "confidence": 0.9764240980148315
+            }
+        ]
+    },
+    {
+        "frame_id": 190,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    842,
+                    50,
+                    1216,
+                    425
+                ],
+                "confidence": 0.9758039712905884
+            }
+        ]
+    },
+    {
+        "frame_id": 191,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    841,
+                    50,
+                    1217,
+                    425
+                ],
+                "confidence": 0.9768623113632202
+            }
+        ]
+    },
+    {
+        "frame_id": 192,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    50,
+                    1218,
+                    424
+                ],
+                "confidence": 0.9777462482452393
+            }
+        ]
+    },
+    {
+        "frame_id": 193,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    847,
+                    48,
+                    1220,
+                    422
+                ],
+                "confidence": 0.97591632604599
+            }
+        ]
+    },
+    {
+        "frame_id": 194,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    849,
+                    48,
+                    1219,
+                    427
+                ],
+                "confidence": 0.9724022746086121
+            }
+        ]
+    },
+    {
+        "frame_id": 195,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    848,
+                    47,
+                    1220,
+                    424
+                ],
+                "confidence": 0.9729253649711609
+            }
+        ]
+    },
+    {
+        "frame_id": 196,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    848,
+                    47,
+                    1218,
+                    421
+                ],
+                "confidence": 0.9657246470451355
+            }
+        ]
+    },
+    {
+        "frame_id": 197,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    848,
+                    48,
+                    1218,
+                    418
+                ],
+                "confidence": 0.9623876810073853
+            }
+        ]
+    },
+    {
+        "frame_id": 198,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    50,
+                    1216,
+                    425
+                ],
+                "confidence": 0.9684571027755737
+            }
+        ]
+    },
+    {
+        "frame_id": 199,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    54,
+                    1215,
+                    427
+                ],
+                "confidence": 0.9622471332550049
+            }
+        ]
+    },
+    {
+        "frame_id": 200,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    843,
+                    54,
+                    1217,
+                    437
+                ],
+                "confidence": 0.9635458588600159
+            }
+        ]
+    },
+    {
+        "frame_id": 201,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    54,
+                    1218,
+                    435
+                ],
+                "confidence": 0.9733479022979736
+            }
+        ]
+    },
+    {
+        "frame_id": 202,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    50,
+                    1218,
+                    435
+                ],
+                "confidence": 0.9728672504425049
+            }
+        ]
+    },
+    {
+        "frame_id": 203,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    839,
+                    46,
+                    1215,
+                    422
+                ],
+                "confidence": 0.973240852355957
+            }
+        ]
+    },
+    {
+        "frame_id": 204,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    837,
+                    36,
+                    1212,
+                    406
+                ],
+                "confidence": 0.9678329825401306
+            }
+        ]
+    },
+    {
+        "frame_id": 205,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    836,
+                    32,
+                    1209,
+                    400
+                ],
+                "confidence": 0.9501290917396545
+            }
+        ]
+    },
+    {
+        "frame_id": 206,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    839,
+                    12,
+                    1209,
+                    391
+                ],
+                "confidence": 0.8661227822303772
+            }
+        ]
+    },
+    {
+        "frame_id": 207,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    0,
+                    1266,
+                    547
+                ],
+                "confidence": 0.857512891292572
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    844,
+                    0,
+                    1224,
+                    352
+                ],
+                "confidence": 0.5975282192230225
+            }
+        ]
+    },
+    {
+        "frame_id": 208,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    855,
+                    0,
+                    1273,
+                    468
+                ],
+                "confidence": 0.7676451802253723
+            }
+        ]
+    },
+    {
+        "frame_id": 209,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    873,
+                    0,
+                    1261,
+                    389
+                ],
+                "confidence": 0.6759430170059204
+            }
+        ]
+    },
+    {
+        "frame_id": 214,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    853,
+                    0,
+                    1240,
+                    374
+                ],
+                "confidence": 0.39762797951698303
+            }
+        ]
+    },
+    {
+        "frame_id": 215,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    828,
+                    0,
+                    1266,
+                    489
+                ],
+                "confidence": 0.7105563879013062
+            }
+        ]
+    },
+    {
+        "frame_id": 216,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    837,
+                    1,
+                    1247,
+                    406
+                ],
+                "confidence": 0.6635828614234924
+            },
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    836,
+                    0,
+                    1288,
+                    629
+                ],
+                "confidence": 0.4472099244594574
+            }
+        ]
+    },
+    {
+        "frame_id": 217,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    864,
+                    78,
+                    1304,
+                    587
+                ],
+                "confidence": 0.8848047256469727
+            }
+        ]
+    },
+    {
+        "frame_id": 218,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    874,
+                    218,
+                    1341,
+                    736
+                ],
+                "confidence": 0.9375838041305542
+            }
+        ]
+    },
+    {
+        "frame_id": 219,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    852,
+                    405,
+                    1345,
+                    920
+                ],
+                "confidence": 0.896207332611084
+            }
+        ]
+    },
+    {
+        "frame_id": 220,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    684,
+                    573,
+                    1341,
+                    1080
+                ],
+                "confidence": 0.8059523105621338
+            }
+        ]
+    },
+    {
+        "frame_id": 221,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    695,
+                    632,
+                    1325,
+                    1080
+                ],
+                "confidence": 0.3571292757987976
+            }
+        ]
+    },
+    {
+        "frame_id": 222,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    597,
+                    365,
+                    1623,
+                    1080
+                ],
+                "confidence": 0.834434986114502
+            }
+        ]
+    },
+    {
+        "frame_id": 223,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    664,
+                    383,
+                    1681,
+                    1080
+                ],
+                "confidence": 0.8813138008117676
+            }
+        ]
+    },
+    {
+        "frame_id": 224,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    979,
+                    382,
+                    1708,
+                    1080
+                ],
+                "confidence": 0.9086289405822754
+            }
+        ]
+    },
+    {
+        "frame_id": 225,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1021,
+                    375,
+                    1743,
+                    1080
+                ],
+                "confidence": 0.9072638750076294
+            }
+        ]
+    },
+    {
+        "frame_id": 226,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1067,
+                    372,
+                    1776,
+                    1080
+                ],
+                "confidence": 0.8832062482833862
+            }
+        ]
+    },
+    {
+        "frame_id": 227,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1106,
+                    377,
+                    1807,
+                    1080
+                ],
+                "confidence": 0.9295501112937927
+            }
+        ]
+    },
+    {
+        "frame_id": 228,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1137,
+                    402,
+                    1830,
+                    1080
+                ],
+                "confidence": 0.9084712266921997
+            }
+        ]
+    },
+    {
+        "frame_id": 229,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1141,
+                    414,
+                    1831,
+                    1080
+                ],
+                "confidence": 0.9181814789772034
+            }
+        ]
+    },
+    {
+        "frame_id": 230,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1141,
+                    414,
+                    1826,
+                    1080
+                ],
+                "confidence": 0.9286901354789734
+            }
+        ]
+    },
+    {
+        "frame_id": 231,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1164,
+                    403,
+                    1826,
+                    1080
+                ],
+                "confidence": 0.9150933623313904
+            }
+        ]
+    },
+    {
+        "frame_id": 232,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1178,
+                    404,
+                    1822,
+                    1080
+                ],
+                "confidence": 0.9202614426612854
+            }
+        ]
+    },
+    {
+        "frame_id": 233,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1182,
+                    399,
+                    1823,
+                    1079
+                ],
+                "confidence": 0.9413837194442749
+            }
+        ]
+    },
+    {
+        "frame_id": 234,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1177,
+                    390,
+                    1830,
+                    1080
+                ],
+                "confidence": 0.9377112984657288
+            }
+        ]
+    },
+    {
+        "frame_id": 235,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1164,
+                    379,
+                    1855,
+                    1080
+                ],
+                "confidence": 0.9305452108383179
+            }
+        ]
+    },
+    {
+        "frame_id": 236,
+        "detections": [
+            {
+                "class_name": "pa-",
+                "coordinates": [
+                    1149,
+                    365,
+                    1914,
+                    1080
+                ],
+                "confidence": 0.2786708176136017
+            }
+        ]
+    },
+    {
+        "frame_id": 237,
+        "detections": [
+            {
+                "class_name": "gu-",
+                "coordinates": [
+                    1348,
+                    558,
+                    1920,
+                    1080
+                ],
+                "confidence": 0.6943093538284302
+            }
+        ]
+    }
+]

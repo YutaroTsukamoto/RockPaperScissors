@@ -25,3 +25,6 @@ env/
 Thumbs.db
 Rock-Paper-Scissors
 Rock-Paper-Scissors-merged
+.next
+node_modules
+images
